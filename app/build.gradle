@@ -13,7 +13,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
@@ -126,6 +126,11 @@ dependencies {
     implementation "com.jakewharton.rxbinding2:rxbinding-appcompat-v7-kotlin:$rxbindingVersion"
     implementation "com.jakewharton.rxbinding2:rxbinding-design-kotlin:$rxbindingVersion"
     implementation "com.jakewharton.rxbinding2:rxbinding-recyclerview-v7-kotlin:$rxbindingVersion"
+
+    //RxLifeCycle
+    implementation 'com.trello.rxlifecycle2:rxlifecycle:2.2.1'
+    implementation 'com.trello.rxlifecycle2:rxlifecycle-components:2.2.1'
+    implementation 'com.trello.rxlifecycle2:rxlifecycle-kotlin:2.2.1'
 
     //Epoxy
     api "com.airbnb.android:epoxy:$epoxyVersion"
